@@ -86,8 +86,8 @@ class Library{
                     no_of_issued_books++;
                     int id = rs.getInt(1);
                     String book_Name = rs.getString(2);
-                    String author_Name = rs.getString(3);
-                    System.out.println(id + " | " + book_Name + " | " + author_Name);
+                    String person_Name = rs.getString(4);
+                    System.out.println(id + " | " + book_Name + " | " + person_Name);
                 }
             }
             System.out.println("Total number of Books issued from Library : "+no_of_issued_books);
